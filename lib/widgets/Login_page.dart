@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:shivam_app/map/map_layout.dart';
+import 'package:shivam_app/welcomePage.dart';
 import 'package:shivam_app/widgets/admin_page.dart';
 import 'package:shivam_app/widgets/custom_button.dart';
 import 'package:shivam_app/widgets/custom_text_field.dart';
 import 'package:shivam_app/widgets/global_variables.dart';
+import 'package:shivam_app/welcomePage.dart';
 
 enum Auth {
   signin,
@@ -107,7 +109,9 @@ class _AuthScreenState extends State<AuthScreen> {
                             onTap: () {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => Home()),
+                                // MaterialPageRoute(builder: (context) => Home()),
+                                MaterialPageRoute(
+                                    builder: (context) => welcomePage()),
                               );
                             })
                       ],

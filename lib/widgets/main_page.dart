@@ -64,7 +64,7 @@ class _MainPageState extends State<MainPage> {
                   child: Text("Good Evening", style: TextStyle(fontSize: 15)),
                 ),
                 Text(
-                  "Shivam Desale",
+                  "Shivam",
                   style: TextStyle(fontSize: 18),
                 ),
               ],
